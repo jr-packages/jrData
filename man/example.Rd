@@ -3,8 +3,17 @@
 \docType{data}
 \name{example}
 \alias{example}
-\title{Example data set}
-\format{A data frame}
-\description{
-Gender, Score, Response, Age
+\title{Example data frame data}
+\usage{
+data(example)
 }
+\value{
+A data frame
+}
+\description{
+Used only for the introduction to data frames example
+}
+\examples{
+data(example)
+}
+\keyword{datasets}

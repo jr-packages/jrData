@@ -3,8 +3,10 @@
 \docType{data}
 \name{bond}
 \alias{bond}
-\title{James Bond Information}
-\format{A data frame}
+\title{James Bond Data set}
+\source{
+http://www.knownman.com/james-bond-graph/
+}
 \description{
-Kills/Alcohol consumed/Nationality of every James Bond
+Statistics from the James bond films
 }
