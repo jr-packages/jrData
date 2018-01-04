@@ -6,6 +6,9 @@ notifications:
     on_success: change
     on_failure: change
 
+r_packages:
+  - drat
+
 after_success:
   - wget https://raw.githubusercontent.com/jr-packages/drat/master/deploy.sh
   - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash deploy.sh
