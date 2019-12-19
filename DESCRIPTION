@@ -1,7 +1,7 @@
 Type: Package
 Package: jrData
 Title: Jumping Rivers Data Sets
-Version: 0.1.1
+Version: 0.1.2
 Author: Jumping Rivers
 Maintainer: Jumping Rivers <colin@jumpingrivers.com>
 Description: Data sets for courses.
