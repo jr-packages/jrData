@@ -1,14 +1,16 @@
-Package: jrData
 Type: Package
+Package: jrData
 Title: Jumping Rivers Data Sets
-Version: 0.1.1
+Version: 0.1.2
 Author: Jumping Rivers
 Maintainer: Jumping Rivers <colin@jumpingrivers.com>
 Description: Data sets for courses.
 License: GPL-2
-Depends: R (>= 2.10)
+Depends: 
+    R (>= 2.10)
 Suggests:
-  testthat, lintr
+    lintr,
+    testthat
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1

@@ -7,7 +7,8 @@ NULL
 
 #' @name map
 #' @title World city info
-#' @description Lat/lng  and populations of cities around the world with > 500k population
+#' @description Lat/lng and populations of cities around the world
+#' with > 500k population
 #' @docType data
 #' @format A data frame
 NULL
@@ -21,9 +22,9 @@ NULL
 
 #' @name premier
 #' @title Premier league 2016/2017
-#' @description Information on teams for the 16/17 season, such as summer spend/ net spend (millions)
-#' , final position, % of english players, games til they were safe from relegation, games til they
-#' scored 40 goals.
+#' @description Information on teams for the 16/17 season, such as summer
+#' spend/ net spend (millions), final position, % of english players,
+#' games til they were safe from relegation, games til they scored 40 goals.
 #' @docType data
 #' @format A data frame
 NULL
@@ -105,9 +106,9 @@ NULL
 #' @aliases ratfeed2 ratfeed3
 #' @title Ratfeed data set
 #'
-#' @description The \code{ratfeed} data set. An example of the factorial ANOVA design.
-#' The \code{ratfeed2} and \code{ratfeed3} datasets are similar to the original data,
-#' but are used to illustrate variable encoding.
+#' @description The \code{ratfeed} data set. An example of the factorial
+#' ANOVA design. The \code{ratfeed2} and \code{ratfeed3} datasets are
+#' similar to the original data, but are used to illustrate variable encoding.
 #' @docType data
 #' @usage data(ratfeed)
 #' @return A data frame
@@ -119,12 +120,13 @@ NULL
 #' @name correlation
 #' @title Spurious Correlations
 #'
-#' @description This data set contains the number of honey producing bee colonies
-#' (Thousands of colonies (USDA)) in the US and the Divorce rate in South Carolina
-#' (Divorces per 1000 people (US Census)). With a correlation of 0.9, this is
-#' clearly a significant result.
+#' @description This data set contains the number of honey producing bee
+#' colonies (Thousands of colonies (USDA)) in the US and the Divorce
+#' rate in South Carolina (Divorces per 1000 people (US Census)).
+#' With a correlation of 0.9, this is clearly a significant result.
 #'
-#' @source Spurious correlations (http://www.tylervigen.com/view_correlation?id=75)
+#' @source Spurious correlations (http://www.tylervigen.com/
+#' view_correlation?id=75)
 #' @docType data
 #' @examples
 #' data(correlation)
@@ -134,19 +136,22 @@ NULL
 #' @name rugby
 #' @title Rugby players sizes
 #'
-#' @description Sizes of the England XV to the equivalent week in the Five/Six Nations of in 1962, 1972, ..., 2012.
-#' @source http://www.bbc.co.uk/blogs/tomfordyce/2012/03/land_of_the_rugby_giants.html
+#' @description Sizes of the England XV to the equivalent week in
+#' the Five/Six Nations of in 1962, 1972, ..., 2012.
+#' @source http://www.bbc.co.uk/blogs/tomfordyce/2012/03/land_of_the_
+#' rugby_giants.html
 NULL
 
 #' @name chopsticks
 #' @aliases chopsticks_full
 #' @title Chopstick efficiency
 #'
-#' @description  A few researchers set out to determine the optimal length of chopsticks for children and adults.
-#' They came up with a measure of how effective a pair of chopsticks performed, called the "Food Pinching
+#' @description  A few researchers set out to determine the optimal length
+#' of chopsticks for children and adults. They came up with a measure
+#' of how effective a pair of chopsticks performed, called the "Food Pinching
 #' Performance."
-#' The "Food Pinching Performance" was determined by counting the number of peanuts picked
-#' and placed in a cup (PPPC).
+#' The "Food Pinching Performance" was determined by counting the
+#' number of peanuts picked and placed in a cup (PPPC).
 #'
 #' The idea was taken from http://blog.yhat.com/posts/7-funny-datasets.html
 #' @docType data
@@ -166,22 +171,36 @@ NULL
 #' @name facebook
 #' @title Facebook metrics Data Set
 #'
-#' @description The data is related to posts' published during the year of 2014 on the
-#' Facebook's page of a renowned cosmetics brand. This dataset contains 500 of the 790 rows and
-#' part of the features analyzed by Moro et al. (2016). The remaining were omitted due to confidentiality issues.
-#' Lifetime post total reach	The number of people who saw a page post (unique users).
+#' @description The data is related to posts' published during the year
+#' of 2014 on the Facebook's page of a renowned cosmetics brand.
+#' This dataset contains 500 of the 790 rows and part of the
+#' features analyzed by Moro et al. (2016). The remaining were omitted
+#' due to confidentiality issues. Lifetime post total reach	The number
+#' of people who saw a page post (unique users).
 #' \describe{
-#' \item{Lifetime post total impressions}{Impressions are the number of times a post from a page is displayed, whether the post is clicked or not. People may see multiple impressions of the same post. For example, someone might see a Page update in News Feed once, and then a second time if a friend shares it.}
-#' \item{Lifetime engaged users}{The number of people who clicked anywhere in a post (unique users).}
-#' \item{Lifetime post consumers}{The number of people who clicked anywhere in a post.}
+#' \item{Lifetime post total impressions}{Impressions are the number
+#' of times a post from a page is displayed, whether the post is
+#' clicked or not. People may see multiple impressions of the samepost.
+#' For example, someone might see a Page update in News Feed once,
+#' and then a second time if a friend shares it.}
+#' \item{Lifetime engaged users}{The number of people who clicked
+#' anywhere in a post (unique users).}
+#' \item{Lifetime post consumers}{The number of people who clicked
+#' anywhere in a post.}
 #' \item{Lifetime post consumptions}{The number of clicks anywhere in a post.}
-#' \item{Lifetime post impressions by people who have liked a page}{Total number of impressions just from people who have liked a page.}
-#' \item{Lifetime post reach by people who like a page}{The number of people who saw a page post because they have liked that page (unique users).}
-#' \item{Lifetime people who have liked a page and engaged with a post}{The number of people who have liked a Page and clicked anywhere in a post (Unique users).}
+#' \item{Lifetime post impressions by people who have liked a page}{Total
+#' number of impressions just from people who have liked a page.}
+#' \item{Lifetime post reach by people who like a page}{The number of
+#' people who saw a page post because they have liked that page
+#' (unique users).}
+#' \item{Lifetime people who have liked a page and engaged with a post}{The
+#' number of people who have liked a Page and clicked anywhere in a
+#' post (Unique users).}
 #' \item{Comments}{Number of comments on the publication.}
 #' \item{Likes}{Number of "Likes" on the publication.}
 #' \item{Shares}{Number of times the publication was shared.}
-#' \item{Total interactions}{The sum of "likes", "comments", and "shares" of the post.}
+#' \item{Total interactions}{The sum of "likes", "comments", and
+#' "shares" of the post.}
 #' }
 #' @source http://archive.ics.uci.edu/ml/datasets/Facebook+metrics
 #' @docType data
@@ -198,14 +217,16 @@ NULL
 #' @name food
 #' @title European protein consumption
 #' @description Datat on protein consumpution.
-#' @source https://rstudio-pubs-static.s3.amazonaws.com/33876_1d7794d9a86647ca90c4f182df93f0e8.html
+#' @source https://rstudio-pubs-static.s3.amazonaws.com/
+#' 33876_1d7794d9a86647ca90c4f182df93f0e8.html
 #' @docType data
 NULL
 
 #' @name lsd
 #' @title LSD & Maths
-#' @description Group of volunteers was given LSD, their mean scores on math exam and
-#' tissue concentrations of LSD were obtained at n=7 time points.
+#' @description Group of volunteers was given LSD, their mean scores
+#' on math exam and tissue concentrations of LSD were obtained at
+#' n=7 time points.
 #'
 #' The test score is out of 100 and the Drugs is (ppm).
 #' @source https://www.ncbi.nlm.nih.gov/pubmed/5676802
@@ -230,12 +251,13 @@ NULL
 #' @title miniaa
 #' @description Providers of health care in the USA are made publicly
 #' available by the US government.
-#' The resulting datasets are large (over 4 GB unzipped) and can be accessed from
-#' http://download.cms.gov/nppes/NPI_Files.html.
+#' The resulting datasets are large (over 4 GB unzipped) and can be
+#' accessed from http://download.cms.gov/nppes/NPI_Files.html.
 #' In this dataset each row is a registered health care provider.
-#' The columns contain information on these providers, including name, address and
-#' telephone number.
-#' Because there are so many column variables (329) much of the data is redundant.
+#' The columns contain information on these providers, including name,
+#' address and telephone number.
+#' Because there are so many column variables (329) much of the data
+#' is redundant.
 #' This data set is a sub set of the real data sets
 #' @docType data
 #' @format A data frame
@@ -285,8 +307,9 @@ NULL
 #' \item{beauty}{each of the lecturers' pictures was rated by
 #' six undergraduate students: three women and three men.
 #' The raters were told to use a 10 (highest) to 1 rating scale,
-#' to concentrate on the physiognomy of the
-#' professor in the picture, to make their ratings independent of age, and to keep 5 in mind as an average. The scores were then normalised.}
+#' to concentrate on the physiognomy of the professor in the picture,
+#' to make their ratings independent of age, and to keep 5 in mind as
+#' an average. The scores were then normalised.}
 #' }
 #' @name Beauty
 #' @docType data
@@ -297,7 +320,16 @@ NULL
 
 #' Aphids data set
 #'
-#' The is data described in Matis et al, 2008. The data set consists of five observations on cotton aphid counts on twenty randomly chosen leaves in each plot, for twenty-seven treatment-block combinations. The data were recorded in July 2004 in Lamesa, Texas. The treatments consisted of three nitrogen levels (blanket, variable and zero), three irrigation levels (low, medium and high) and three blocks, each being a distinct area. Irrigation treatments were randomly assigned within each block as whole plots. Nitrogen treatments were randomly assigned within each whole block as split plots. . Note that the sampling times are $t$=0, 1.14, 2.29, 3.57 and 4.57 weeks (i.e. every 7 to 8 days).
+#' The is data described in Matis et al, 2008. The data set consists of
+#' five observations on cotton aphid counts on twenty randomly chosen
+#' leaves in each plot, for twenty-seven treatment-block combinations.
+#' The data were recorded in July 2004 in Lamesa, Texas. The treatments
+#' consisted of three nitrogen levels (blanket, variable and zero), three
+#' irrigation levels (low, medium and high) and three blocks, each being
+#' a distinct area. Irrigation treatments were randomly assigned within
+#' each block as whole plots. Nitrogen treatments were randomly assigned
+#' within each whole block as split plots. . Note that the sampling times
+#' are $t$=0, 1.14, 2.29, 3.57 and 4.57 weeks (i.e. every 7 to 8 days).
 #' \describe{
 #' \item{Time}{Sampling time (in weeks). This has been slightly simplified}
 #' \item{Water}{Water level at that particular plot: Low, Medium and High}
@@ -332,7 +364,9 @@ NULL
 
 #' Dummy cell data set
 #'
-#' Example cell data set. An experiment was conducted involving two cell types (Case and Control) and two treatments (A and B). The data is stored as a data frame:
+#' Example cell data set. An experiment was conducted involving two
+#' cell types (Case and Control) and two treatments (A and B). The data
+#' is stored as a data frame:
 #' \describe{
 #' \item{values}{measurements from the experiment}
 #' \item{treatment}{either A or B}
@@ -388,7 +422,8 @@ NULL
 
 #' US baby names
 #'
-#' A collection of names given to children born in the US during the years of 2011-2014
+#' A collection of names given to children born in the US during the
+#' years of 2011-2014
 #'
 #'@name USnames
 #'@docType data
@@ -490,8 +525,8 @@ NULL
 
 #' Academic Performance Index (API) data.
 #'
-#' API test scores and demographic data for a simple random sample of 200 schools
-#' in California from the year 2000.
+#' API test scores and demographic data for a simple random sample
+#' of 200 schools in California from the year 2000.
 #'
 #' @name api
 #' @docType data
@@ -543,7 +578,8 @@ NULL
 #' \item{east}{The Easting of the site in tenths of a kilometre.}
 #' \item{north}{The Northing of the site in tenths of a kilometre.}}
 #' @source The complete data set, which involved more species of
-#' centipede and more microhabitats, is described in Blackburn \emph{et al.} (2002).
+#' centipede and more microhabitats, is described in Blackburn
+#' \emph{et al.} (2002).
 #' @keywords datasets
 #' @examples
 #' data(centipedes)
@@ -583,9 +619,10 @@ NULL
 #' \describe{
 #' \item{t}{The survival or censoring time, in months, of the patient.}
 #' \item{status}{A factor with two levels, 0 and 1, where 0 indicates that the
-#' patient's survival time was right-censored and 1 indicates that it was observed.}
-#' \item{x}{The total number of HLA-B or DR antigen mismatches between the kindey
-#' donor and recipient.}}
+#' patient's survival time was right-censored and 1 indicates that it was
+#' observed.}
+#' \item{x}{The total number of HLA-B or DR antigen mismatches between
+#' the kindey donor and recipient.}}
 #' @source The data set is taken from Henderson and Milner (1981).
 #' @keywords datasets
 #' @examples
@@ -616,13 +653,12 @@ NULL
 #' @name movies
 #' @title Movie information and user ratings from IMDB.com.
 #'
-#' @description The internet movie database, \url{http://imdb.com/}, is a website devoted
-#' to collecting movie data supplied by studios and fans.  It claims to be the
-#' biggest movie database on the web and is run by amazon.  More about
-#' information imdb.com can be found online,
+#' @description The internet movie database, \url{http://imdb.com/},
+#' is a website devoted to collecting movie data supplied by studios
+#' and fans.  It claims to be the biggest movie database on the web
+#' and is run by amazon.  More about information imdb.com can be found online,
 #' \url{http://imdb.com/help/show_leaf?about}, including information about
-#' the data collection process,
-#' \url{http://imdb.com/help/show_leaf?infosource}.
+#' the data collection process,\url{http://imdb.com/help/show_leaf?infosource}.
 #'
 #' Movies were selected for inclusion if they had a known length and had been
 #' rated by at least one imdb user.
@@ -639,7 +675,8 @@ NULL
 #'      users who rated this movie a 1.
 #'   \item mpaa.  MPAA rating.
 #'   \item action, animation, comedy, drama, documentary, romance, short.
-#'     Binary variables representing if movie was classified as belonging to that genre.
+#'     Binary variables representing if movie was classified as
+#'     belonging to that genre.
 #' }
 #' @references \url{http://had.co.nz/data/movies/}
 #' @examples
