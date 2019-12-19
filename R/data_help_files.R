@@ -200,8 +200,7 @@ NULL
 #' \item{Likes}{Number of "Likes" on the publication.}
 #' \item{Shares}{Number of times the publication was shared.}
 #' \item{Total interactions}{The sum of "likes", "comments", and
-#' "shares" of the post.}
-#' }
+#' "shares" of the post.}}
 #' @source http://archive.ics.uci.edu/ml/datasets/Facebook+metrics
 #' @docType data
 NULL
