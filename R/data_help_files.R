@@ -193,14 +193,15 @@ NULL
 #' \item{Lifetime post reach by people who like a page}{The number of
 #' people who saw a page post because they have liked that page
 #' (unique users).}
-#' \item{Lifetime people who have liked a page and engaged with a post}
-#' {The number of people who have liked a Page and clicked anywhere in a
+#' \item{Lifetime people who have liked a page and engaged with a post}{The
+#' number of people who have liked a Page and clicked anywhere in a
 #' post (Unique users).}
 #' \item{Comments}{Number of comments on the publication.}
 #' \item{Likes}{Number of "Likes" on the publication.}
 #' \item{Shares}{Number of times the publication was shared.}
 #' \item{Total interactions}{The sum of "likes", "comments", and
-#' "shares" of the post.}}
+#' "shares" of the post.}
+#' }
 #' @source http://archive.ics.uci.edu/ml/datasets/Facebook+metrics
 #' @docType data
 NULL
